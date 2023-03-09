@@ -42,10 +42,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sansekai/Wa-OpenAI.git"
+    "url": "git+https://github.com/AcengBotzzz/ProjectBotz.git"
   },
   "bugs": {
-    "url": "https://github.com/Sansekai/Wa-OpenAI/issues"
+    "url": "https://github.com/AcengBotzzz/ProjectBotz/issues"
   },
-  "homepage": "https://github.com/Sansekai/Wa-OpenAI#readme"
+  "homepage": "https://github.com/AcengBotzzz/ProjectBotz#readme"
 }
