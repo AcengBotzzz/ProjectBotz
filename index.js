@@ -1,6 +1,6 @@
-const sessionName = "4ksanzz";
-const donet = "https://saweria.co/4ksanzzx";
-const owner = ["6281236167286"]; // Put your number here ex: ["62xxxxxxxxx"]
+const sessionName = "ara_session";
+const donet = "DANA 085863680916";
+const owner = ["6289620159080"]; // Put your number here ex: ["62xxxxxxxxx"]
 const {
   default: sansekaiConnect,
   useMultiFileAuthState,
@@ -134,12 +134,12 @@ function smsg(conn, m, store) {
 }
 
 async function startHisoka() {
-  const { state, saveCreds } = await useMultiFileAuthState(`./${sessionName ? sessionName : "session"}`);
+  const { state, saveCreds } = await useMultiFileAuthState(`./${sessionName ? sessionName : "ara_session"}`);
   const { version, isLatest } = await fetchLatestBaileysVersion();
   console.log(`using WA v${version.join(".")}, isLatest: ${isLatest}`);
   console.log(
     color(
-      figlet.textSync("Wa-OpenAI", {
+      figlet.textSync("Project-Botz", {
         font: "Standard",
         horizontalLayout: "default",
         vertivalLayout: "default",
@@ -152,7 +152,7 @@ async function startHisoka() {
   const client = sansekaiConnect({
     logger: pino({ level: "silent" }),
     printQRInTerminal: true,
-    browser: ["Wa-OpenAI - 4Ksanzz", "Safari", "5.1.7"],
+    browser: ["ミ★ 𝘈𝘳𝘢_𝘉𝘰𝘵𝘻 ★彡", "Yandex", "5.1.7"],
     auth: state,
   });
 
